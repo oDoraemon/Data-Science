@@ -55,7 +55,7 @@ getrate <- function(x) {
 rate0 = unlist(getrate(motorEmission0))
 rate1 = unlist(getrate(motorEmission1))
 
-plot(seq(2002,2008,3),rate0, main = "Motor vehicle Emission rate in Baltimore & LA",pch = 19, col = "steelblue", xlab = "year", ylab = "rate to last 3year", xlim = c(2000, 2009), ylim = c(-1, 1))
+plot(seq(2002,2008,3),rate0, main = "Emissions change rate to the last 3 year",pch = 19, col = "steelblue", xlab = "year", ylab = "rate to last 3year", xlim = c(2000, 2009), ylim = c(-1, 1))
 lines(seq(2002,2008,3),rate0,lwd = 2, col = "steelblue")
 
 
